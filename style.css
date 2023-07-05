@@ -151,11 +151,12 @@ footer {
     align-items: center;
     padding: 20px;
     width: 75%;
-    height: 40vh;
+    height: 60vh;
     margin: auto;
     border-bottom: 2px solid grey;
 }
 
 .footer-container-item {
     width: 22%;
+    height: 200px;
 }
