@@ -79,6 +79,7 @@
     align-items: center;
     flex-direction: row-reverse;
     margin: 10px;
+    height: 60vh
 }
 
 .about-title {
@@ -127,8 +128,34 @@
 .service-container {
     background: linear-gradient(90deg, rgb(77, 72, 72), black);
     padding: 30px;
+    height: 70vh;
 }
 
 .about-info-title {
     font-size: 25px;
+}
+
+footer {
+    background: linear-gradient(90deg, rgb(108, 102, 102), black);
+    color: white;
+}
+
+.copyright {
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    width: 75%;
+    height: 40vh;
+    margin: auto;
+    border-bottom: 2px solid grey;
+}
+
+.footer-container-item {
+    width: 22%;
 }
