@@ -5,6 +5,28 @@
 
 .test {
     color: blue;
-    cursor: url(), auto;
+    cursor: url(https://images.unsplash.com/photo-1583309219338-a582f1f9ca6b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==&auto=format&fit=crop&w=1486&q=80), auto;
 }
 
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    border: 1px solid grey;
+    height: 500px;
+}
+
+.box {
+    padding: 20px;
+    background-color: tomato;
+    width: 120px;
+}
+
+.box2 {
+    background-color: green;
+}
+
+.box3 {
+    background-color: blue;
+}
